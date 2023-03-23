@@ -1,6 +1,9 @@
 .container {
     max-width: 90%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 .hr {
     border: 1px solid #000;
@@ -13,4 +16,7 @@
 }
 .red-title {
     color: #FF4C60;
+}
+.image img {
+    width:  60%;
 }

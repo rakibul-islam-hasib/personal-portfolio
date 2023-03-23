@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css'
+import hero_image from './img/img.png'
 const Hero = () => {
     return (
         <div className='container'>
@@ -11,7 +12,11 @@ const Hero = () => {
                     <hr className='hr' />
                 </div>
             </div>
-            
+            {/* Image part */}
+            <div className="image">
+                <img src={hero_image} alt="" />
+            </div>
+
         </div>
     );
 };
