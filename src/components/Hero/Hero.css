@@ -1,0 +1,16 @@
+.container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+.hr {
+    border: 1px solid #000;
+    width: 50px;
+}
+.resume {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.red-title {
+    color: #FF4C60;
+}

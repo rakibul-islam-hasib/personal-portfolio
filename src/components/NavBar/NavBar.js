@@ -6,12 +6,13 @@ const NavBar = () => {
             <div className='navbar__logo'>
                 <h2>Marsi.</h2>
             </div>
-            <div>
-                <ul className='navbar__menu'>
-                    <li><i className="fa-brands fa-dribbble"></i> Dribble</li>
-                    <li><i className="fa-brands fa-behance"></i> Behance</li>
-                    
-                </ul>
+            <ul className='navbar__menu'>
+                <li><i className="fa-brands fa-dribbble"></i> Dribble</li>
+                <li><i className="fa-brands fa-behance"></i> Behance</li>
+
+            </ul>
+            <div className="ham">
+            <i className="fa-solid fa-bars-staggered"></i>
             </div>
         </div>
     );
